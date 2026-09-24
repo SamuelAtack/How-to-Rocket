@@ -1,14 +1,5 @@
 <template>
     <div class="bottom-sticky">
-        <div class="si-us">
-            <a
-                @click.prevent="$emit('switch-units')"
-                href="#"
-                title="Choose unit system"
-            >
-                {{ unitSystem }}
-            </a>
-        </div>
 
         <div class="back-to-top">
             <a href="#contents" title="Jump back to contents">
