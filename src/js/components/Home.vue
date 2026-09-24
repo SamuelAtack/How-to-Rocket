@@ -2695,7 +2695,7 @@
 
         </div>
 
-        <BottomSticky :unitSystem="unitSystem" v-on:switch-units="switchUnits" />
+        <BottomSticky/>
     </div>
 
 </template>
@@ -2709,11 +2709,6 @@ export default {
         fullscreenImage: '',
         equations: {}
     }),
-    methods: {
-        switchUnits() {
-            this.unitSystem = (this.unitSystem == 'SI') ? 'US' : 'SI'
-        }
-    },
 
     created() {
         this.equations = getEquations()
