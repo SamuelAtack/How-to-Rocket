@@ -732,8 +732,6 @@
                 usable face area.</p>
             </span>
 
-            <div class="note-box">SI-unit conversion in progress...</div>
-
             <!-- CH 3.3 -->
             <h2 id="chamber-wall-thickness">Chamber Wall Thickness</h2>
 
@@ -744,18 +742,18 @@
             working stress in the wall is given by</p>
 
             <!-- S = PD/2t_w        (23) -->
-            <div id="formula-23" class="formula"><img src="formulas/formula-23.png" alt="formula-23"></div>
+            <p class="formula-text" id="formula-23">S = PD/2t<sub>w</sub></p>
 
 
             <p>where P is the pressure in the combustion chamber (neglecting the effect of
             coolant pressure on the outside of the shell), D is the mean diameter of the
             cylinder, and t<sub>w</sub> is the thickness of the cylinder wall. A typical
             material for small water-cooled combustion chambers is copper, for which the
-            allowable working stress is about 8000 psi. The thickness of the combustion chamber
+            allowable working stress is about 55 MPa. The thickness of the combustion chamber
             wall is therefore given by</p>
 
-            <!-- t_w = PD/16000     (24) -->
-            <div id="formula-24" class="formula"><img src="formulas/formula-24.png" alt="formula-24"></div>
+            <!-- t_w = PD/(2 * 55) MPa     (24) -->
+            <p class="formula-text" id="formula-24">t<sub>w</sub> = PD/110</p>
 
             <p>This is the minimum thickness; actually the thickness should be somewhat greater
             to allow for welding, buckling, and stress concentration. The thickness of the
@@ -798,7 +796,7 @@
             <ol>
                 <li>Use water as the coolant.</li>
                 <li>Use copper for the combustion chamber and nozzle walls.</li>
-                <li>Water flow velocity in the cooling jacket should be 20-50 ft/sec.</li>
+                <li>Water flow velocity in the cooling jacket should be 6-15 m/sec.</li>
                 <li>Water flow rate should be high enough so that boiling does not occur.</li>
                 <li>Extend the water cooling jacket beyond the face of the injector.</li>
                 <li>A steady flow of cooling water is essential.</li>
@@ -825,17 +823,17 @@
             is given by</p>
 
             <!-- Q = q A = w_w * c_p * (T - Ti)     (25) -->
-            <div id="formula-25" class="formula"><img src="formulas/formula-25.png" alt="formula-25"></div>
+            <p class="formula-text" id="formula-25">Q = q A = <i>ẇ</i><sub>w</sub> c<sub>p</sub> (T − T<sub>i</sub>)</p>
 
             <p class="formula-explanation">
                 where<br />
-                Q = total heat transferred, Btu/sec<br />
-                q = average heat transfer rate of chamber, Btu/in<sup>2</sup>-sec<br />
-                A = heat transfer area, in<sup>2</sup><br />
-                w<sub>w</sub> = coolant flow rate, Ib/sec<br />
-                c<sub>p</sub> = specific heat of coolant, Btu/lb°F<br />
-                T = temperature of coolant leaving jacket, °F<br />
-                T<sub>i</sub> = temperature of coolant entering jacket, °F<br />
+                Q = total heat transferred, W<br />
+                q = average heat transfer rate of chamber, W/m<sup>2</sup><br />
+                A = heat transfer area, m<sup>2</sup><br />
+                <i>ẇ</i><sub>w</sub> = coolant flow rate, kg/sec<br />
+                c<sub>p</sub> = specific heat of coolant, J/kg·K<br />
+                T = temperature of coolant leaving jacket, °C<br />
+                T<sub>i</sub> = temperature of coolant entering jacket, °C<br />
                 the use of this equation will be illustrated in the section Example Design
                 calculation.
             </p>
@@ -854,7 +852,7 @@
             <p>Once the wall material of an operating rocket engine begins to fail, final
             burn-through and engine destruction are extremely rapid. Even a small pinhole in the
             chamber wall will almost immediately (within one second) open into a large hole
-            because the hot chamber gases (4000-6000 °F) will oxidize or melt the adjacent metal,
+            because the hot chamber gases (2200-3300 °C) will oxidize or melt the adjacent metal,
             which is then blown away exposing new metal to the hot gases.</p>
 
             <p>Exotic metals and difficult fabrication techniques are used in today's space and
@@ -901,16 +899,15 @@
             design, we present below the equation for the flow of liquid through a simple
             orifice (a round drilled hole, for example)</p>
 
-            <!-- w = Cd A SQRT(2g(rho)(deltaP))     (26) -->
-            <div id="formula-26" class="formula"><img src="formulas/formula-26.png" alt="formula-26"></div>
+            <!-- w = Cd A SQRT(2(rho)(deltaP))     (26) -->
+            <p class="formula-text" id="formula-26"><i>ẇ</i> = C<sub>d</sub> A (2ρΔP)<sup>1/2</sup></p>
 
             <p>
                 where<br />
-                w = propellant flow rate, lb/sec<br />
-                A = area of orifice, ft<sup>2</sup><br />
-                ΔP = pressure drop across orifice, psi<br />
-                ρ = density of propellant, lb/ft<sup>3</sup><br />
-                g = gravitational constant, 32.2 ft/sec<sup>2</sup><br />
+                <i>ẇ</i> = propellant flow rate, kg/sec<br />
+                A = area of orifice, m<sup>2</sup><br />
+                ΔP = pressure drop across orifice, Pa<br />
+                ρ = density of propellant, kg/m<sup>3</sup><br />
                 C<sub>d</sub> = orifice discharge coefficient<br />
             </p>
 
@@ -920,11 +917,11 @@
             <p>The injection velocity, or velocity of the liquid stream issuing from the
             orifice, is given by</p>
 
-            <!-- v = Cd SQRT(2g((deltaP)/(rho)))        (27) -->
-            <div id="formula-27" class="formula"><img src="formulas/formula-27.png" alt="formula-27"></div>
+            <!-- v = Cd SQRT(2(deltaP)/(rho))        (27) -->
+            <p class="formula-text" id="formula-27">v = C<sub>d</sub> (2ΔP/ρ)<sup>1/2</sup></p>
 
-            <p>Injection pressure drops of 70 to 150 psi, or injection velocities of 50 to 100
-            ft/sec are usually used in small liquid-fuel rocket engines. The injection pressure
+            <p>Injection pressure drops of 480 to 1030 kPa, or injection velocities of 15 to 30
+            m/sec are usually used in small liquid-fuel rocket engines. The injection pressure
             drop must be high enough to eliminate combustion instability inside the combustion
             chamber but must not be so high that the tankage and pressurization system used to
             supply fuel to the engine are penalized.</p>
