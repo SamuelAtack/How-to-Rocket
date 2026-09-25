@@ -1246,7 +1246,7 @@
             machine and hand tools:</p>
 
             <ol>
-                <li>6" or 10" metal-turning lathe, with attachments</li>
+                <li>150 mm or 250 mm metal-turning lathe, with attachments</li>
                 <li>Precision drill press</li>
                 <li>hand files, calipers, micrometers, etc.</li>
                 <li>oxy-acetylene torch or small arc welder.</li>
@@ -1254,7 +1254,7 @@
 
             <p>Since a properly designed engine will have symmetrical parts, a milling machine
             or planer will not be required. The metal-turning lathe should have a repeatable
-            accuracy of 0.001 inch. The drill press will be used to drill small diameter holes
+            accuracy of 0.025 mm. The drill press will be used to drill small diameter holes
             and should have a true running, high speed chuck.</p>
 
             <p>Mensuration equipment such as calipers, micrometers, etc., must be capable of
@@ -1277,7 +1277,7 @@
             <p>As discussed previously, the combustion chamber should built as a one-piece unit.
             This arrangement, while more difficult from a machining point of view, eliminates
             the requirement for a joint of some kind between the two parts; this joint would be
-            exposed to the hot combustion gases (5700 °F) on one side and would, in all
+            exposed to the hot combustion gases (3149 °C) on one side and would, in all
             probability, fail. Building the combustion chamber and nozzle in one piece
             eliminates this potential failure point. Care must be exercised during the machining
             of the copper chamber/nozzle to ensure constant wall thickness and the correct taper
@@ -1290,7 +1290,7 @@
             drop, nnd the outside finish of the shell, which will be visible to the world,
             should reflect the care and concern of the machinist. The shell will also contain
             the coolant entry and exit ports. Since the coolant (typically water) will probably
-            have an entry pressure of 60 to 100 psi, these ports and fittings should be
+            have an entry pressure of 415 to 690 kPa, these ports and fittings should be
             constructed with some care. The use of flare type fittings with metal tapered seats
             (such as those manufactured by Parker or Weatherland) is highly recomended. The
             shell will also feature a method of attaching the injector and for mounting the
@@ -1298,13 +1298,13 @@
             <a class="figure-link" href="#figure-8">Figure 8</a>, these two mounting
             requirements can be easily combined to simplify the design. The forces to be
             considered when designing the shell are not the thrust forces (which are small,
-            typically on the order of 20-30 lbs) but, rather the pressure forces attempting to
+            typically on the order of 90-135 N) but, rather the pressure forces attempting to
             separate the injector from the shell. The pressure acting on the injector area out
             to the point of sealing between the injector and the outer shell is the combustion
-            chamber pressure, which is typically 100 to 300 psi. The force attempting to
-            separate the injector from the shell is slightly over 600 lbs for the design shown
+            chamber pressure, which is typically 690 to 2070 kPa. The force attempting to
+            separate the injector from the shell is slightly over 2670 N for the design shown
             in <a class="figure-link" href="#figure-8">Figure 8</a> at a combustion pressure of
-            300 psi. The bolts holding the two components together (and in this case also
+            2070 kPa. The bolts holding the two components together (and in this case also
             holding the assembly to the test mount) must withstand this force with and adequate
             safety factor (typically a factor of two). The number and size of bolts required can
             be obtained from <a class="table-link" href="#table-4">Table IV</a>, which gives the
@@ -1315,7 +1315,10 @@
                 
             <h4>Table IV</h4>
 
-            <p>Average load capacity of high strength steel bolts (safety factor = 2)</p>
+            <p>Average load capacity of high strength steel bolts (safety factor = 2). Bolt
+            sizes are given as standard imperial (UNC/UNF) thread designations, since these
+            are the sizes commercial high-strength bolts are actually sold in; there is no
+            exact metric equivalent for the same bolt.</p>
             
             <!-- TABLE 4 -->
             <div id="table-4" class="responsive-table">
@@ -1323,25 +1326,25 @@
                     <thead>
                         <tr>
                             <th>Bolt Size</th>
-                            <th>Load Capacity, lb</th>
+                            <th>Load Capacity, N</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>10-32</td>
-                            <td>1500</td>
+                            <td>6670</td>
                         </tr>
                         <tr>
                             <td>1/4-20</td>
-                            <td>2400</td>
+                            <td>10680</td>
                         </tr>
                         <tr>
                             <td>1/4-28</td>
-                            <td>2750</td>
+                            <td>12230</td>
                         </tr>
                         <tr>
                             <td>3/8-16</td>
-                            <td>5800</td>
+                            <td>25800</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1352,7 +1355,7 @@
             configured water-cooled design, the use of an elastomeric O-ring is highly
             desirable. A standard neoprene O-ring (manufactured by a number of companies, see
             <a href="#list-of-suppliers">List of Suppliers</a>) will give reliable service if
-            the surrounding metal does not exceed a temperature of 200-300 °F . Dimensions and
+            the surrounding metal does not exceed a temperature of 93-150 °C . Dimensions and
             design parameters for O-rings and O-ring grooves are given in manufacturers supply
             catalogs.</p>
 
