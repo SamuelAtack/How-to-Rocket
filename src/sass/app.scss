@@ -109,6 +109,19 @@ div.formula {
         width: 500px;
     }
 
+p.formula-text {
+    text-align: right;
+    max-width: 100%;
+    font-style: italic;
+}
+
+@media(max-width: 708px) {
+    p.formula-text {
+        text-align: left;
+        overflow-x: auto;
+    }
+}
+
 p.formula-explanation {
     font-weight: bold;
     color: #666;

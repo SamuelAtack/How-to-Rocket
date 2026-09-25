@@ -955,8 +955,8 @@
             tables and concepts presented in the previous sections.</p>
 
             <p>A small water-cooled liquid-fuel rocket engine is to be
-            designed for a chamber pressure of 300 psi and a thrust of 20
-            lbs. The engine is to operate at sea level using gaseous oxygen and
+            designed for a chamber pressure of 2068 kPa (2.07 MPa) and a thrust of 89
+            N. The engine is to operate at sea level using gaseous oxygen and
             gasoline propellants.</p>
 
             <!-- CH 4.1.1 -->
@@ -970,18 +970,15 @@
             impulse will be about 260 sec. The total propellant flow rate is
             given by Equation (<a class="formula-link" href="#formula-3">3</a>)</p>
 
-            <!-- w<sub>t</sub> = F/I<sub>sp</sub> = 20/260 = 0.077 lb/sec -->
-            <div id="formula-28" class="formula"><img src="formulas/formula-28.png" alt="formula-28"></div>
+            <p class="formula-text" id="formula-28"><i>ẇ</i><sub>t</sub> = F/I<sub>sp</sub>g = 89/(260 × 9.81) = 0.0349 kg/sec</p>
 
             <p>Since the mixture ratio, <i>r</i>, is 2.5, we find from Equation (<a class="formula-link" href="#formula-5">5</a>)</p>
 
-            <!-- w<sub>f</sub> = w<sub>t</sub>/(r + 1) = 0.077/3.5 = 0.022 lb/sec -->
-            <div id="formula-29" class="formula"><img src="formulas/formula-29.png" alt="formula-29"></div>
+            <p class="formula-text" id="formula-29"><i>ẇ</i><sub>f</sub> = <i>ẇ</i><sub>t</sub>/(r + 1) = 0.0349/3.5 = 0.00998 kg/sec</p>
 
             <p>From Equation (<a class="formula-link" href="#formula-6">6</a>) the oxygen flow rate is</p>
 
-            <!-- w<sub>o</sub> = 0.077 - 0.022 = 0.055 lb/sec -->
-            <div id="formula-30" class="formula"><img src="formulas/formula-30.png" alt="formula-30"></div>
+            <p class="formula-text" id="formula-30"><i>ẇ</i><sub>o</sub> = 0.0349 − 0.00998 = 0.0249 kg/sec</p>
             
             <p>As a check, we divide the oxygen flow rate by the fuel flow rate and
             the result is 2.5, as it should be.</p>
@@ -989,172 +986,148 @@
             <h3 id="example-step-2">Step 2</h3>
 
             <p>From <a class="table-link" href="#table-1">Table I</a> we note that the chamber
-            gas temperature is 5742 °F or about 6202 degR.</p>
+            gas temperature is 3445 K (3172 °C).</p>
 
             <p>From Equation (<a class="formula-link" href="#formula-9">9</a>) the gas temperature at the nozzle throat is</p>
 
-            <!-- T<sub>t</sub> = .909 (T<sub>c</sub>) = .909 (6202) = 5650 R -->
-            <div id="formula-31" class="formula"><img src="formulas/formula-31.png" alt="formula-31"></div>
+            <p class="formula-text" id="formula-31">T<sub>t</sub> = .909 (T<sub>c</sub>) = .909 (3445) = 3132 K</p>
 
             <h3 id="example-step-3">Step 3</h3>
 
             <p>From Equation (<a class="formula-link" href="#formula-12">12</a>) the pressure at the nozzle throat is</p>
 
-            <!-- P<sub>t</sub> = .564 (P<sub>c</sub>) = .564 (300) = 169 psi -->
-            <div id="formula-32" class="formula"><img src="formulas/formula-32.png" alt="formula-32"></div>
+            <p class="formula-text" id="formula-32">P<sub>t</sub> = .564 (P<sub>c</sub>) = .564 (2068) = 1167 kPa</p>
 
             <h3 id="example-step-4">Step 4</h3>
 
             <p>The nozzle throat area is given by Equation (<a class="formula-link" href="#formula-7">7</a>)</p>
 
-            <!-- <p>A<sub>t</sub> = (w/P<sub>t</sub>)(RT<sub>t</sub>/𝛾g<sub>c</sub>)<sup>1/2</sup></p> -->
-            <div id="formula-33" class="formula"><img src="formulas/formula-33.png" alt="formula-33"></div>
+            <p class="formula-text" id="formula-33">A<sub>t</sub> = (<i>ẇ</i>/P<sub>t</sub>)(RT<sub>t</sub>/𝛾)<sup>1/2</sup></p>
 
-            <div id="formula-34" class="formula"><img src="formulas/formula-34.png" alt="formula-34"></div>
-            <!-- <p>A<sub>t</sub> = (.077/169)(9500)<sup>1/2</sup> = 0.0444 in<sup>2</sup></p> -->
+            <p class="formula-text" id="formula-34">A<sub>t</sub> = 28.6 mm<sup>2</sup></p>
 
             <h3 id="example-step-5">Step 5</h3>
 
             <p>The nozzle throat diameter is given by Equation (<a class="formula-link" href="#formula-17">17</a>)</p>
 
-            <!-- <p>D<sub>t</sub> = (4A<sub>t</sub>/π)<sup>1/2</sup> = (0.0566)<sup>1/2</sup> = 0.238 in.</p> -->
-            <div id="formula-35" class="formula"><img src="formulas/formula-35.png" alt="formula-35"></div>
+            <p class="formula-text" id="formula-35">D<sub>t</sub> = (4A<sub>t</sub>/π)<sup>1/2</sup> = (36.5)<sup>1/2</sup> = 6.04 mm</p>
 
             <h3 id="example-step-6">Step 6</h3>
 
             <p>From <a class="table-link" href="#table-3">Table III</a> we find that for a
-            chamber pressure of 300 psi and a nozzle exit pressure of 14.7 psi (sea level)</p>
+            chamber pressure of 2068 kPa and a nozzle exit pressure of 101 kPa (sea level)</p>
 
             <p>A<sub>e</sub>/A<sub>t</sub> = 3.65 so that the nozzle exit area is, from
             Eq. (<a class="formula-link" href="#formula-15">15</a>)</p>
 
-            <!-- <p>A<sub>e</sub> = 3.65 A<sub>t</sub> = (3.655)(0.0444) = 0.162 in<sup>2</sup></p> -->
-            <div id="formula-36" class="formula"><img src="formulas/formula-36.png" alt="formula-36"></div>
+            <p class="formula-text" id="formula-36">A<sub>e</sub> = 3.65 A<sub>t</sub> = (3.65)(28.6) = 104 mm<sup>2</sup></p>
 
             <h3 id="example-step-7">Step 7</h3>
 
             <p>The nozzle exit diameter is from Eq. (<a class="formula-link" href="#formula-18">18</a>)</p>
 
-            <!-- <p>D<sub>e</sub> = (4A<sub>e</sub>/π)<sup>1/2</sup> = (.2065)<sup>1/2</sup> = 0.4555 in.</p> -->
-            <div id="formula-37" class="formula"><img src="formulas/formula-37.png" alt="formula-37"></div>
+            <p class="formula-text" id="formula-37">D<sub>e</sub> = (4A<sub>e</sub>/π)<sup>1/2</sup> = (133)<sup>1/2</sup> = 11.5 mm</p>
 
             <h3 id="example-step-8">Step 8</h3>
 
-            <p>For this propellant combination we will assume a combustion chamber L* of 60
-            inches. The combustion chamber volume is given by Eq. (<a class="formula-link" href="#formula-19">19</a>)</p>
+            <p>For this propellant combination we will assume a combustion chamber L* of 1524
+            mm. The combustion chamber volume is given by Eq. (<a class="formula-link" href="#formula-19">19</a>)</p>
 
-            <!-- <p>V<sub>c</sub> = L* A<sub>t</sub> = (60)(.0444) = 2.67 in<sup>3</sup></p> -->
-            <div id="formula-38" class="formula"><img src="formulas/formula-38.png" alt="formula-38"></div>
+            <p class="formula-text" id="formula-38">V<sub>c</sub> = L* A<sub>t</sub> = (1524)(28.6) = 43.6 cm<sup>3</sup></p>
 
             <h3 id="example-step-9">Step 9</h3>
 
             <p>The chamber length is found from Eq. (<a class="formula-link" href="#formula-22">22</a>)</p>
 
-            <!-- <p>V<sub>c</sub> = (1.1) (A<sub>c</sub> L<sub>c</sub>)</p> -->
-            <div id="formula-39" class="formula"><img src="formulas/formula-39.png" alt="formula-39"></div>
+            <p class="formula-text" id="formula-39">V<sub>c</sub> = (1.1) (A<sub>c</sub> L<sub>c</sub>)</p>
 
             <p>However, we must first determine the chamber area or A<sub>c</sub>. We do this by
             assuming that the chamber diameter is five times the nozzle throat diameter or
             D<sub>c</sub> = 5D<sub>t</sub>,</p>
 
-            <p>therefore D<sub>c</sub> = 1.2 in. and A<sub>c</sub> = 1.13 in<sup>2</sup></p>
+            <p>therefore D<sub>c</sub> = 30.5 mm and A<sub>c</sub> = 7.29 cm<sup>2</sup></p>
 
             <p>Therefore,</p>
 
-            <!-- <p>L<sub>c</sub> = V<sub>c</sub>/(1.1)(1.13) = 2.67/1.245 = 2.15 in</p> -->
-            <div id="formula-40" class="formula"><img src="formulas/formula-40.png" alt="formula-40"></div>
+            <p class="formula-text" id="formula-40">L<sub>c</sub> = V<sub>c</sub>/(1.1)(7.29) = 43.6/8.02 = 54.6 mm</p>
 
             <h3 id="example-step-10">Step 10</h3>
 
             <p>Copper will be used for the combustion chamber and nozzle
             wall. The chamber wall thickness, is given by Eq. (<a class="formula-link" href="#formula-24">24</a>)</p>
 
-
-            <!-- <p>t<sub>w</sub> = PD/16000 = (300)(1.2)/16000</p>
-            <p>t<sub>w</sub> = 0.0225 inch</p> -->
-            <div id="formula-41" class="formula"><img src="formulas/formula-41.png" alt="formula-41"></div>
+            <p class="formula-text" id="formula-41">t<sub>w</sub> = PD/(2σ) = (2068)(30.5)/(2 × 55160)<br>
+            t<sub>w</sub> = 0.572 mm</p>
 
             <p>To allow for additional stress and welding factors we shall set the
-            wall thickness equal to 3/32 or 0.09375 inch and will assume that the
+            wall thickness equal to 2.4 mm and will assume that the
             nozzle wall has this thickness also.</p>
 
             <h3 id="example-step-11">Step 11</h3>
 
             <p>Previous experience with small watercooled rocket engines
             has shown that we can expect the copper combustion chamber and
-            nozzle to experience an average heat transfer rate, q, of ahout 3
-            Btu/in<sup>2</sup>-sec. The heat transfer area of the combustion chamber is the
+            nozzle to experience an average heat transfer rate, q, of about 4.9
+            MW/m<sup>2</sup>. The heat transfer area of the combustion chamber is the
             outer surface area of the chamber and nozzle. This surface area is
             given by</p>
 
-            <!-- <p>A = (D<sub>c</sub> + 2t<sub>w</sub>)(L<sub>c</sub>) + area of nozzle cone</p> -->
-            <div id="formula-42" class="formula"><img src="formulas/formula-42.png" alt="formula-42"></div>
+            <p class="formula-text" id="formula-42">A = (D<sub>c</sub> + 2t<sub>w</sub>)(L<sub>c</sub>) + area of nozzle cone</p>
 
-            <!-- <p>A = 9.4 in<sup>2</sup> + area of nozzle cone</p> -->
-            <div id="formula-43" class="formula"><img src="formulas/formula-43.png" alt="formula-43"></div>
+            <p class="formula-text" id="formula-43">A = 60.6 cm<sup>2</sup> + area of nozzle cone</p>
 
             <p>The area of the nozzle cone up to the throat can be assumed to be
             about 10% of the chamber surface area so that</p>
 
-            <!-- <p>A = (1.1)(9.4) = 10.35 in<sup>2</sup></p> -->
-            <div id="formula-44" class="formula"><img src="formulas/formula-44.png" alt="formula-44"></div>
+            <p class="formula-text" id="formula-44">A = (1.1)(60.6) = 66.8 cm<sup>2</sup></p>
 
             <p>The total heat transferred into the coolant is given by Eq. (<a class="formula-link" href="#formula-25">25</a>)</p>
 
-            <!-- <p>Q = q A = 3(10.35) = 31 Btu/sec</p> -->
-            <div id="formula-45" class="formula"><img src="formulas/formula-45.png" alt="formula-45"></div>
+            <p class="formula-text" id="formula-45">Q = q A = (4.9 × 10<sup>6</sup>)(66.8 × 10<sup>-4</sup>) = 32.7 kW</p>
 
             <h3 id="example-step-12">Step 12</h3>
 
             <p>The cooling water flow rate can be calculated by assuming
-            a desired temperature rise of the water. If this is 40 °F then,
+            a desired temperature rise of the water. If this is 22.2 °C then,
             from Eq. (<a class="formula-link" href="#formula-25">25</a>)</p>
 
-            <!-- <p>w<sub>v</sub> = Q/(deltaT), where c<sub>p</sub> for water = 1.0</p> -->
-            <div id="formula-46" class="formula"><img src="formulas/formula-46.png" alt="formula-46"></div>
+            <p class="formula-text" id="formula-46"><i>ẇ</i><sub>w</sub> = Q/(c<sub>p</sub>ΔT), where c<sub>p</sub> for water = 4.19 kJ/kg·K</p>
 
-            <p>where c<sub>p</sub> for water = 1.0.</p>
+            <p>where c<sub>p</sub> for water = 4.19 kJ/kg·K.</p>
 
-            <!-- <p>w = 31/40 = 0.775 lb of water per sec.</p> -->
-            <div id="formula-47" class="formula"><img src="formulas/formula-47.png" alt="formula-47"></div>
+            <p class="formula-text" id="formula-47"><i>ẇ</i> = 32.7/(4.19 × 22.2) = 0.352 kg of water per sec.</p>
 
             <h3 id="example-step-13">Step 13</h3>
 
             <p>The annular flow passage between the combustion chamber wall
             and the outer jacket must be sized so that the flow velocity of the
-            cooling water is at least 30 ft/sec. This velocity is obtained when
+            cooling water is at least 9.14 m/sec. This velocity is obtained when
             the flow passage has dimensions as determined below:</p>
 
-            <!-- <p>v<sub>w</sub> = w<sub>w</sub>/(rho)A</p> -->
-            <div id="formula-48" class="formula"><img src="formulas/formula-48.png" alt="formula-48"></div>
+            <p class="formula-text" id="formula-48">v<sub>w</sub> = <i>ẇ</i><sub>w</sub>/(ρ)A</p>
 
-            <p>where v<sub>w</sub> = 30 ft/sec, w<sub>w</sub> = 0.775 lb/sec,
-            (rho) = 62.4 lb/ft3, and A is the area of the annular flow passage,
+            <p>where v<sub>w</sub> = 9.14 m/sec, <i>ẇ</i><sub>w</sub> = 0.352 kg/sec,
+            ρ = 1000 kg/m<sup>3</sup>, and A is the area of the annular flow passage,
             given by</p>
 
-            <!-- <p>A = (π/4) (D<sub>2</sub><sup>2</sup> - D1<sup>2</sup>)</p> -->
-            <div id="formula-49" class="formula"><img src="formulas/formula-49.png" alt="formula-49"></div>
+            <p class="formula-text" id="formula-49">A = (π/4) (D<sub>2</sub><sup>2</sup> - D1<sup>2</sup>)</p>
 
             <p>where D<sub>2</sub> is the inner diameter of the outer jacket and D<sub>1</sub> is the
             outer diameter of the combustion chamber, given by</p>
 
-            <!-- <p>D<sub>1</sub> = D<sub>c</sub> + 2t<sub>w</sub></p> -->
-            <div id="formula-50" class="formula"><img src="formulas/formula-50.png" alt="formula-50"></div>
+            <p class="formula-text" id="formula-50">D<sub>1</sub> = D<sub>c</sub> + 2t<sub>w</sub></p>
 
             <p>Substituting in the above equations</p>
 
-            <!-- <p>D<sub>2</sub> = SQRT((4w<sub>w</sub>)/(v<sub>w</sub>ρπ) + D<sub>1</sub><sup>2</sup>)</p> -->
-            <div id="formula-51" class="formula"><img src="formulas/formula-51.png" alt="formula-51"></div>
+            <p class="formula-text" id="formula-51">D<sub>2</sub> = SQRT((4<i>ẇ</i><sub>w</sub>)/(v<sub>w</sub>ρπ) + D<sub>1</sub><sup>2</sup>)</p>
             
-            <!-- <p>D<sub>2</sub> = (.0151)<sup>1/2</sup> = .123 ft = 1.475 inch</p> -->
-            <div id="formula-52" class="formula"><img src="formulas/formula-52.png" alt="formula-52"></div>
+            <p class="formula-text" id="formula-52">D<sub>2</sub> = 37.5 mm</p>
 
             <p>Therefore</p>
 
-            <!-- <p>D<sub>2</sub> - D<sub>1</sub> = 0.085 inch</p> -->
-            <div id="formula-53" class="formula"><img src="formulas/formula-53.png" alt="formula-53"></div>
+            <p class="formula-text" id="formula-53">D<sub>2</sub> - D<sub>1</sub> = 2.16 mm</p>
 
-            <p>The water flow gap is 0.0425 inch.</p>
+            <p>The water flow gap is 1.08 mm.</p>
 
             <h3 id="example-step-14">Step 14</h3>
 
@@ -1162,11 +1135,10 @@
             commercial spray nozzle with a 75 degree spray angle. The required
             capacity of the nozzle is determined by the fuel flow rate</p>
 
-            <!-- <p>w<sub>f</sub> = 0.022 lb/sec = 1.32 lb/ minute,</p> -->
-            <div id="formula-54" class="formula"><img src="formulas/formula-54.png" alt="formula-54"></div>
+            <p class="formula-text" id="formula-54"><i>ẇ</i><sub>f</sub> = 0.00998 kg/sec = 0.599 kg/ minute,</p>
 
-            <p>Since there are six pounds of gasoline per gallon, the spray nozzle
-            flow requirement is 0.22 gallon per minute (gpm). The spray nozzle
+            <p>Since gasoline has a density of about 713 kg/m<sup>3</sup>, the spray nozzle
+            flow requirement is about 0.84 litre per minute. The spray nozzle
             can now be ordered from any of several suppliers (see List of
             Suppliers); nozzle material should be brass to ensure adequate
             injector heat transfer to the incoming propellant.</p>
@@ -1177,38 +1149,33 @@
 
             <p>The flow area for fuel injection is given by Equation (<a class="formula-link" href="#formula-26">26</a>)</p>
 
-            <!-- <p>A = w<sub>f</sub>/(C<sub>d</sub>) (2gρΔP)<sup>1/2</sup></p> -->
-            <div id="formula-55" class="formula"><img src="formulas/formula-55.png" alt="formula-55"></div>
+            <p class="formula-text" id="formula-55">A = <i>ẇ</i><sub>f</sub>/(C<sub>d</sub>) (2ρΔP)<sup>1/2</sup></p>
 
             <p>We will assume that C<sub>d</sub> = 0.7 with a fuel injection pressure drop
-            of 100 psi. The density of gasoline is about 44.5 lb/ft<sup>3</sup>, so that</p>
+            of 690 kPa. The density of gasoline is about 713 kg/m<sup>3</sup>, so that</p>
 
-            <!-- <p>A = .022/(.7)(6430) = 0.0000049 ft<sup>2</sup></p> -->
-            <div id="formula-56" class="formula"><img src="formulas/formula-56.png" alt="formula-56"></div>
+            <p class="formula-text" id="formula-56">A = 0.00998/(0.7 × 1006) = 0.0000142 m<sup>2</sup></p>
 
-            <!-- <p>A = 0.000706 in<sup>2</sup></p> -->
-            <div id="formula-57" class="formula"><img src="formulas/formula-57.png" alt="formula-57"></div>
+            <p class="formula-text" id="formula-57">A = 0.142 mm<sup>2</sup></p>
 
             <p>If only one injection hole is used (a poor practice which can
             lead to combustion instability) its diameter would be</p>
 
-            <!-- <p>D = (4Aπ)<sup>1/2</sup> = .0009<sup>1/2</sup> = 0.30 inch</p> -->
-            <div id="formula-58" class="formula"><img src="formulas/formula-58.png" alt="formula-58"></div>
+            <p class="formula-text" id="formula-58">D = (4A/π)<sup>1/2</sup> = (0.181)<sup>1/2</sup> = 0.43 mm</p>
 
-            <p>A number 69 drill could be used for this hole.</p>
+            <p>A number 69 drill (0.74 mm) is roughly this size.</p>
 
             <p>If two injection holes are used, their diameter would be</p>
 
-            <!-- <p>D = .00045<sup>1/2</sup> = 0.021 inch</p> -->
-            <div id="formula-59" class="formula"><img src="formulas/formula-59.png" alt="formula-59"></div>
+            <p class="formula-text" id="formula-59">D = (0.0905)<sup>1/2</sup> = 0.30 mm</p>
 
-            <p>A number 75 drill could be used for these holes.</p>
+            <p>A number 75 drill (0.53 mm) is roughly this size.</p>
 
             <h3 id="example-step-15">Step 15</h3>
 
             <p>The injection holes for the gaseous oxygen will be simple
             drilled orifices. The size of these orifices should be such that a
-            gas stream velocity or about 200 ft/sec is obtained at design
+            gas stream velocity or about 61 m/sec is obtained at design
             oxygen flow rate. The holes must not be so small that sonic velocity
             is achieved in the orifice passages since this would result in a high
             upstream pressure requirement to drive the required amount of oxygen
@@ -1217,41 +1184,36 @@
             <p>If a spray nozzle fuel injector is used we will assume the use
             of four equally spaced oxygen injection ports parallel to the
             combustion chamber centerline around this nozzle. If we assume an
-            injection pressure drop of 100 psi then the oxygen gas pressure at the
-            entrance to the injection ports will be 400 psi (the chamber pressure
+            injection pressure drop of 690 kPa then the oxygen gas pressure at the
+            entrance to the injection ports will be 2760 kPa (the chamber pressure
             plus the injection pressure drop). The density of gaseous oxygen at
-            400 psi and a temperature of 68 °F is given by the perfect gas law
+            2760 kPa and a temperature of 20 °C is given by the perfect gas law
             (see <a class="table-link" href="#table-2">Table II</a>).</p>
 
-            <!-- <p>ρ<sub>2</sub> = ρ<sub>1</sub>(P<sub>2</sub>/P<sub>1</sub>) = 2.26 lb/ft<sup>3</sup></p> -->
-            <div id="formula-59" class="formula"><img src="formulas/formula-59.png" alt="formula-59"></div>
+            <p class="formula-text" id="formula-59b">ρ<sub>2</sub> = ρ<sub>1</sub>(P<sub>2</sub>/P<sub>1</sub>) = 36.2 kg/m<sup>3</sup></p>
 
             <p>Assuming, incompressibility, the injection flow area is given by</p>
 
-            <!-- <p>A = w<sub>o</sub>/ρv<sub>o</sub></p> -->
-            <div id="formula-60" class="formula"><img src="formulas/formula-60.png" alt="formula-60"></div>
+            <p class="formula-text" id="formula-60">A = <i>ẇ</i><sub>o</sub>/ρv<sub>o</sub></p>
 
             <p>Since we know the oxygen flow rate and the desired injection
             velocity, we can easily find the total injection area</p>
 
-            <!-- <p>A = .055/(2.26)(200) = 0.0001217 ft<sup>2</sup></p> -->
-            <div id="formula-61" class="formula"><img src="formulas/formula-61.png" alt="formula-61"></div>
+            <p class="formula-text" id="formula-61">A = 0.0249/(36.2 × 61) = 0.0000113 m<sup>2</sup></p>
 
-            <!-- <p>A = 0.0175 in<sup>2</sup></p> -->
-            <div id="formula-62" class="formula"><img src="formulas/formula-62.png" alt="formula-62"></div>
+            <p class="formula-text" id="formula-62">A = 11.3 mm<sup>2</sup></p>
 
-            <p>Since there are to be four holes, each hole has an area of 0.004375
-            in<sup>2</sup> and the diameter of each hole is</p>
+            <p>Since there are to be four holes, each hole has an area of 2.82
+            mm<sup>2</sup> and the diameter of each hole is</p>
 
-            <!-- <p>D = (.00558)<sup>1/2</sup> = 0.0747 inch</p> -->
-            <div id="formula-63" class="formula"><img src="formulas/formula-63.png" alt="formula-63"></div>
+            <p class="formula-text" id="formula-63">D = (3.60)<sup>1/2</sup> = 1.90 mm</p>
 
-            <p>A number 48 drill could be used for these holes.</p>
+            <p>A number 48 drill (1.93 mm) is roughly this size.</p>
 
             <p>These same size oxygen jets could also be used with two fuel
             jets in the impinging stream injector. The holes, oxygen and fuel,
             should be drilled at an angle of 45° with respect to the injector
-            face with the intersection point of the streams about 1/4 inch inside
+            face with the intersection point of the streams about 6.4 mm inside
             the combustion chamber.</p>
 
             <!-- CH 4.2 -->
