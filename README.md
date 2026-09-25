@@ -4,6 +4,8 @@
 
 The content IS NOT mine. All the hard work is done by the original writer Leroy J. Krzycki, and Daniel Risacher, who digitized this in 1996.
 
+FORK NOTICE: this fork was created to give up on the idea of having either Imperial or SI units and just change the original Imperial untis to SI units
+
 See Dan's website: https://risacher.org
 
 <small>
