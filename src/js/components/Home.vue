@@ -119,8 +119,7 @@
             high pressure, high temperature gas in the combustion chamber into high velocity gas
             of lower pressure and temperature. Since thrust is the product of mass (the amount
             of gas flowing through the nozzle) and velocity, a very high gas velocity is
-            desirable. Gas velocities from <span v-if="unitSystem=='US'">one to two miles per second (5000 to 12000 feet per
-            second)</span><span v-else>1.5 to 3.7 kilometers per second</span> can be obtained in rocket nozzles. Nozzles which perform this seemingly
+            desirable. Gas velocities from 1.5 to 3.7 kilometers per second can be obtained in rocket nozzles. Nozzles which perform this seemingly
             amazing feat are called DeLaval nozzles (after their inventor) and consist of a
             convergent and divergent section, as shown in
             <a class="figure-link" href="#figure-2">Figure 2</a>. The minimum flow area
@@ -131,19 +130,12 @@
             existing outside the nozzle. If the rocket engine is being fired at sea level this
             pressure is about
 
-            <span v-if="unitSystem=='US'">14.7 pounds per square inch (psi). If the engine is designed for
-            operation at high altitude, the exit pressure is less than 14.7 psi. The drop in
-            temperature of the combustion gases flowing through the nozzle is high and can be as
-            much as 2000-3000 °F. Since the gases in the combustion chamber may be at
-            5000-6000 °F, the gas temperature at the nozzle exit is still about 3000 °F.
-            </span>
-            <span v-else>
             101.3 kilopascals (kPa). If the engine is designed for
             operation at high altitude, the exit pressure is less than 101.3 kPa. The drop in
             temperature of the combustion gases flowing through the nozzle is high and can be as
             much as 1100-1600 °C. Since the gases in the combustion chamber may be at
             2700-3200 °C, the gas temperature at the nozzle exit is still about 1600 °C.
-            </span></p>
+            </p>
 
             <!-- CH 2.0 -->
             <h1 id="propellant-choice-and-properties">Propellant Choice and Properties</h1>
@@ -168,77 +160,7 @@
 
             <!-- TABLE 1 -->
             <div id="table-1" class="responsive-table">
-                <table v-if="unitSystem=='US'" class="table full-width">
-                    <thead>
-                        <tr>
-                            <th>Propellant Combination Oxidizer/Fuel</th>
-                            <th>Combustion Pressure, psi</th>
-                            <th>Mixture Ratio</th>
-                            <th>Flame Temp (°F)</th>
-                            <th>I<sub>sp</sub>, sec</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Liquid Oxygen & gasoline</td>
-                            <td>300</td>
-                            <td>2.5</td>
-                            <td>5470</td>
-                            <td>242</td>
-                        </tr>
-                        <tr>
-                            <td>Gaseous Oxygen & gasoline</td>
-                            <td>300</td>
-                            <td>2.5</td>
-                            <td>5742</td>
-                            <td>261</td>
-                        </tr>
-                        <tr>
-                            <td>Gaseous Oxygen & gasoline</td>
-                            <td>500</td>
-                            <td>2.5</td>
-                            <td>5862</td>
-                            <td>279</td>
-                        </tr>
-                        <tr>
-                            <td>Liquid Oxygen & JP-4 (jet fuel)</td>
-                            <td>500</td>
-                            <td>2.2</td>
-                            <td>5880</td>
-                            <td>255</td>
-                        </tr>
-                        <tr>
-                            <td>Liquid Oxygen & methyl alcohol</td>
-                            <td>300</td>
-                            <td>1.25</td>
-                            <td>5180</td>
-                            <td>238</td>
-                        </tr>
-                        <tr>
-                            <td>Gaseous Oxygen & methyl alcohol</td>
-                            <td>300</td>
-                            <td>1.2</td>
-                            <td>5220</td>
-                            <td>248</td>
-                        </tr>
-                        <tr>
-                            <td>Liquid Oxygen & hydrogen</td>
-                            <td>500</td>
-                            <td>3.5</td>
-                            <td>4500</td>
-                            <td>363</td>
-                        </tr>
-                        <tr>
-                            <td>Red fuming nitric acid & JP-4</td>
-                            <td>500</td>
-                            <td>4.1</td>
-                            <td>5150</td>
-                            <td>238</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <table v-else class="table full-width">
+                <table class="table full-width">
                     <thead>
                         <tr>
                             <th>Propellant Combination Oxidizer/Fuel</th>
@@ -334,8 +256,8 @@
 
             <p class="formula-explanation">
                 where<br />
-                <span v-katex="'\\dot{w_o}'"></span> = <span v-if="unitSystem == 'US'">lb of oxygen/sec</span><span v-else>kg of oxygen/sec</span><br />
-                <span v-katex="'\\dot{w_f}'"></span> = <span v-if="unitSystem == 'US'">lb of fuel/sec</span><span v-else>kg of fuel/sec</span><br />
+                <span v-katex="'\\dot{w_o}'"></span> = kg of oxygen/sec<br />
+                <span v-katex="'\\dot{w_f}'"></span> = kg of fuel/sec<br />
             </p>
 
             <p>When a stoichiometric ratio is achieved just enough oxygen is present to
@@ -362,7 +284,7 @@
             />
 
 
-            <p>The thrust developed per <span v-if="unitSystem=='US'">pound</span><span v-else>weight unit (newton)</span> of total propellant burned per second is known as
+            <p>The thrust developed per weight unit (newton) of total propellant burned per second is known as
             specific impulse and is defined as</p>
 
             <!-- I<sub>sp</sub> = thrust/total propellant flow rate     (2)<br /> -->
@@ -373,18 +295,13 @@
             with gaseous oxygen at various chamber pressures with the gas expanded to
             atmospheric pressure. This graph can be used to determine the propellant flow rate
             required to produce a certain thrust. Suppose you wish to design a rocket engine
-            using gaseous oxygen/gasoline propellants to be burned at a chamber pressure of <span v-if="unitSystem=='US'">200
-            psi with a thrust of 100 lbs. At these conditions the propellant performance, from
-            <a class="figure-link" href="#figure-5">Figure 5</a>, is 244 lb of thrust per lb of
-            propellant burned per second. Therefore
-            </span>
-            <span v-else>1.4 MPa with a thrust of 445 N. At these conditions the propellant performance, from
+            using gaseous oxygen/gasoline propellants to be burned at a chamber pressure of 1.4 MPa with a thrust of 445 N. At these conditions the propellant performance, from
             <a class="figure-link" href="#figure-5">Figure 5</a>, is 244 N of thrust per kg of propellant burned per second. Therefore
-            </span></p>
+            </p>
 
             <!-- W<sub>t</sub> = F/I<sub>sp</sub> = 100/244 = 0.41 lb/sec   (3) -->
             <Equation name="w_t" label="3" :units="unitSystem" />
-            <span v-if="unitSystem=='SI'"><Equation name="m_t" /></span>
+            <Equation name="m_t" />
 
             <Figure name="Figure 5"
                 v-bind:src="`img/fig-5-${unitSystem.toLowerCase()}.svg`"
@@ -394,16 +311,9 @@
             <p>Since the maximum <i>I<sub>sp</sub></i> mixture ratio (<i>r</i>) for oxygen/gasoline is
             2.5, we have:</p>
 
-            <span v-if="unitSystem=='US'">
-                <Equation name="w_o" label="4" />
-                <Equation name="w_f" label="5" />
-                <Equation name="w_t2" label="6" />
-            </span>
-            <span v-else>
-                <Equation name="m_o" label="4" />
-                <Equation name="m_f" label="5" />
-                <Equation name="m_t2" label="6" />
-            </span>
+            <Equation name="m_o" label="4" />
+            <Equation name="m_f" label="5" />
+            <Equation name="m_t2" label="6" />
 
             <p>[see <a href="#additions-and-corrections">Additions and Corrections</a>]</p>
 
@@ -463,13 +373,7 @@
                             <td>toxic</td>
                             <td>mild</td>
                         </tr>
-                        <tr v-if="unitSystem == 'US'">
-                            <td>Density</td>
-                            <td>0.083 lb/ft<sup>3</sup></td>
-                            <td>48 lb/ft<sup>3</sup></td>
-                            <td>44.5 lb/ft<sup>3</sup></td>
-                        </tr>
-                        <tr v-else>
+                        <tr>
                             <td>Density</td>
                             <td>1.330 kg/m<sup>3</sup></td>
                             <td>769 kg/m<sup>3</sup></td>
@@ -479,18 +383,10 @@
                 </table>
             </div>
 
-            <span v-if="unitSystem=='US'">
-                <p><i><strong>Note:</strong> The density of gaseous oxygen at conditions other than
-                standard can be determined from</i><br />
-                <i>ρ<sub>2</sub></i> = <i>ρ<sub>1</sub></i> (<i>P<sub>2</sub></i>/<i>P<sub>1</sub></i>)(<i>T<sub>1</sub></i>/<i>T<sub>2</sub></i>),
-                <i>where</i> <i>P<sub>1</sub></i> = 14.7 psi, <i>T<sub>1</sub></i> = 68 °F, <i>ρ<sub>1</sub></i> = 0.083 lb/ft<sup>3</sup>.</p>
-            </span>
-            <span v-else>
-                <p><i><strong>Note:</strong> The density of gaseous oxygen at conditions other than
-                standard can be determined from</i><br />
-                <i>ρ<sub>2</sub></i> = <i>ρ<sub>1</sub></i> (<i>P<sub>2</sub></i>/<i>P<sub>1</sub></i>)(<i>T<sub>1</sub></i>/<i>T<sub>2</sub></i>),
-                <i>where</i> <i>P<sub>1</sub></i> = 101.3 kPa, <i>T<sub>1</sub></i> = 20 °C, <i>ρ<sub>1</sub></i> = 1.330 kg/m<sup>3</sup>.</p>
-            </span>
+            <p><i><strong>Note:</strong> The density of gaseous oxygen at conditions other than
+            standard can be determined from</i><br />
+            <i>ρ<sub>2</sub></i> = <i>ρ<sub>1</sub></i> (<i>P<sub>2</sub></i>/<i>P<sub>1</sub></i>)(<i>T<sub>1</sub></i>/<i>T<sub>2</sub></i>),
+            <i>where</i> <i>P<sub>1</sub></i> = 101.3 kPa, <i>T<sub>1</sub></i> = 20 °C, <i>ρ<sub>1</sub></i> = 1.330 kg/m<sup>3</sup>.</p>
 
             <!-- CH 3.0 -->
             <h1 id="design-equations">Design equations</h1>
@@ -512,18 +408,10 @@
             <Equation name="A_t" label="7" :units="unitSystem" />
 
             <p class="formula-explanation">
-                <span v-if="unitSystem=='US'">
-                    where <i>R</i> = gas constant, given by <i>R</i> = <i>R<sup>*</sup></i>/<i>M</i>. <i>R<sup>*</sup></i> is the universal gas
-                    constant equal to 1545.32 ft-lb/lb°R, and <i>M</i> is the molecular weight of the gas.
-                    The molecular weight of the hot gaseous products of combustion of gaseous
-                    oxygen/hydrocarbon fuel is about 24, so that <i>R</i> is about 65 ft-lb/lb°R.
-                </span>
-                <span v-else>
-                    where <i>R</i> = gas constant, given by <i>R</i> = <i>R<sup>*</sup></i>/<i>M</i>. <i>R<sup>*</sup></i> is the universal gas
-                    constant equal to 8.31446 J/(mol &#183; K), and <i>M</i> is the molecular weight of the gas.
-                    The molecular weight of the hot gaseous products of combustion of gaseous
-                    oxygen/hydrocarbon fuel is about 24, so that <i>R</i> is about 350 J/(kg &#183; K).
-                </span>
+                where <i>R</i> = gas constant, given by <i>R</i> = <i>R<sup>*</sup></i>/<i>M</i>. <i>R<sup>*</sup></i> is the universal gas
+                constant equal to 8.31446 J/(mol &#183; K), and <i>M</i> is the molecular weight of the gas.
+                The molecular weight of the hot gaseous products of combustion of gaseous
+                oxygen/hydrocarbon fuel is about 24, so that <i>R</i> is about 350 J/(kg &#183; K).
             </p>
 
             <p>Gamma, (𝛾), is the ratio of gas specific heats and is a thermodynamic variable
@@ -531,16 +419,12 @@
             (see <a href="#bibliography">Bibliography</a>). Gamma is about 1.2 for the products
             of combustion of gaseous oxygen/hydrocarbon fuel.</p>
 
-            <span v-if="unitSystem=='US'"><p><i>g<sub>c</sub></i> is a constant relating to the earth's gravitation and is equal to
-            32.2 ft/sec/sec.</p></span>
-
             <p>For further calculations the reader may consider the following as constants
             whenever gaseous oxygen/hydrocarbon propellants are used:</p>
             
             <p>
-                <span v-if="unitSystem=='US'"><i>R</i> = 65 ft-lb/lb°R</span><span v-else><i>R</i> = 350 J/(kg &#183; K)</span><br />
+                <i>R</i> = 350 J/(kg &#183; K)<br />
                 𝛾 = 1.2<br />
-                <span v-if="unitSystem=='US'"><i>g<sub>c</sub></i> = 32.2 ft/sec<sup>2</sup></span>
             </p>
 
             <p><i>T<sub>t</sub></i> is the temperature of the gases at the nozzle throat. The gas
@@ -556,8 +440,7 @@
             <!-- Tt = (.909)(Tc)            (9) -->
             <Equation name="T_t_val" label="9" />
 
-            <p><i>T<sub>c</sub></i> is the combustion chamber flame temperature in <span v-if="unitSystem == 'US'">degrees Rankine
-            (°R)</span><span v-else>kelvins (K)</span>, given by</p>
+            <p><i>T<sub>c</sub></i> is the combustion chamber flame temperature in kelvins (K), given by</p>
 
             <!-- T (degR) = T (°F) + 460    (10) -->
             <Equation name="T_c_val" label="10" :units="unitSystem" />
@@ -587,7 +470,7 @@
             <Equation name="M_e2" label="13" />
 
             <p><i>P<sub>c</sub></i> is the pressure in the combustion chamber and <i>P<sub>atm</sub></i> is
-            atmospheric pressure, or <span v-if="unitSystem == 'US'">14.7 psi</span><span v-else>101.3 kPa</span>.</p>
+            atmospheric pressure, or 101.3 kPa.</p>
 
             <p>The nozzle exit area corresponding to the exit Mach number resulting from the
             choice of chamber pressure is given by</p>
@@ -601,7 +484,7 @@
 
             <h4>Table III</h4>
 
-            <p>Nozzle Parameters for Various chamber pressures, 𝛾 = 1.2, <i>P<sub>atm</sub></i> = <span v-if="unitSystem == 'US'">14.7 psi</span><span v-else>101.3 hPa</span>.</p>
+            <p>Nozzle Parameters for Various chamber pressures, 𝛾 = 1.2, <i>P<sub>atm</sub></i> = 101.3 hPa.</p>
             
             <!-- TABLE 3 -->
             <div id="table-3" class="responsive-table">
@@ -685,20 +568,11 @@
             <Equation name="L_star" label="19" />
 
             <p class="formula-explanation">
-                <span v-if="unitSystem=='US'">
-                    where <i>V<sub>c</sub></i> is the chamber volume (including the converging section of
-                    the nozzle), in cubic inches, and <i>A<sub>t</sub></i> is the nozzle throat area
-                    (in<sup>2</sup>). For gaseous oxygen/hydrocarbon fuels, an <i>L*</i> of 50 to 100
-                    inches is appropriate. <i>L*</i> is really a substitute for determining the chamber
-                    residence time of the reacting propellants.
-                </span>
-                <span v-else>
-                    where <i>V<sub>c</sub></i> is the chamber volume (including the converging section of
-                    the nozzle), in cubic centimeters, and <i>A<sub>t</sub></i> is the nozzle throat area
-                    (cm<sup>2</sup>). For gaseous oxygen/hydrocarbon fuels, an <i>L*</i> of 130 to 255
-                    cm is appropriate. <i>L*</i> is really a substitute for determining the chamber
-                    residence time of the reacting propellants.
-                </span>
+                where <i>V<sub>c</sub></i> is the chamber volume (including the converging section of
+                the nozzle), in cubic centimeters, and <i>A<sub>t</sub></i> is the nozzle throat area
+                (cm<sup>2</sup>). For gaseous oxygen/hydrocarbon fuels, an <i>L*</i> of 130 to 255
+                cm is appropriate. <i>L*</i> is really a substitute for determining the chamber
+                residence time of the reacting propellants.
             </p>
 
             <p>To reduce losses due to flow velocity of gases within the chamber, the combustion
@@ -721,16 +595,9 @@
             <!-- Vc = 1.1 (AcLc)        (22) -->
             <Equation name="V_c2" label="22" />
 
-            <span v-if="unitSystem=='US'">
-                <p>The chamber diameter for small combustion chambers (thrust level less than 75 lbs)
+            <p>The chamber diameter for small combustion chambers (thrust level less than 335 N)
                 should be three to five times the nozzle throat diameter so the injector will have
                 usable face area.</p>
-            </span>
-            <span v-else>
-                <p>The chamber diameter for small combustion chambers (thrust level less than 335 N)
-                should be three to five times the nozzle throat diameter so the injector will have
-                usable face area.</p>
-            </span>
 
             <!-- CH 3.3 -->
             <h2 id="chamber-wall-thickness">Chamber Wall Thickness</h2>
