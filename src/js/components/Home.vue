@@ -1423,8 +1423,8 @@
             <!-- CH 6.2.1 -->
             <h3 id="high-pressure-gas-cylinders">High Pressure Gas Cylinders</h3>
 
-            <p>Gases stored in cylinders at high pressure (usually about 1800
-            psi) are readily obtained from any bottled gas supplier or from many
+            <p>Gases stored in cylinders at high pressure (usually about 12 400
+            kPa) are readily obtained from any bottled gas supplier or from many
             welding suppliers. Special fittings with nonstandard threads are used
             to prevent use of incorrect equipment with the cylinders. Although
             cylinders can be purchased, they are usually rented and then returned
@@ -1478,7 +1478,7 @@
             <h3 id="fuel-tank">Fuel Tank</h3>
 
             <p>The fuel tank is a closed vessel which contains the liquid fuel
-            at moderate pressure (300-500 psi). Tanks of various sizes and
+            at moderate pressure (2070-3450 kPa). Tanks of various sizes and
             shapes, made from carbon- or stainless steel, are offered to the
             public from war surplus outlets. The amateur builder should be very
             careful if he decides to use such a tank. They should not be modified
@@ -1495,7 +1495,7 @@
             by <a class="formula-link" href="#formula-22">Equation (22)</a></p>
 
              <!-- t_w = PD/2S -->
-             <div id="formula-65" class="formula"><img src="formulas/formula-65.png" alt="formula-65"></div>
+             <p class="formula-text" id="formula-65">t<sub>w</sub> = PD/2S</p>
 
 
             <p>where P is the pressure in the tank (1 1/2 times the desired
@@ -1503,16 +1503,16 @@
             wall thickness, and S is the allowable stress. The size of the tank is
             determined by the size of the rocket engine and the desired operating
             time. The engine discussed in Example Design Calculation had a fuel
-            flow rate of 0.022 lb/sec. A tank with a 4-inch inside diameter and 12
-            inches long would hold enough gasoline to run this engine for 175
-            seconds. If the tank outside diameter is 4.5 inches, the allowable
-            stress in the steel is 20,000 psi, and the operating pressure is 500
-            psi so that the design pressure is 750 psi, a tank minimum wall
-            thickness of 0.085 inch is calculated. A wall thickness of 0.250 inch
+            flow rate of 0.00998 kg/sec. A tank with a 102 mm inside diameter and 305
+            mm long would hold enough gasoline to run this engine for 175
+            seconds. If the tank outside diameter is 114 mm, the allowable
+            stress in the steel is 138 MPa, and the operating pressure is 3450
+            kPa so that the design pressure is 5170 kPa, a tank minimum wall
+            thickness of 2.2 mm is calculated. A wall thickness of 6.3 mm
             is chosen to allow for welding factors, stress concentrations, and the
-            size of available seamless tubing. The tank inside diameter is 4.0
-            inches. The flat end plates for this tank should be at least twice the
-            thickness of the tank wall (i.e. for this case, at least 1/2 inch
+            size of available seamless tubing. The tank inside diameter is 102
+            mm. The flat end plates for this tank should be at least twice the
+            thickness of the tank wall (i.e. for this case, at least 12.7 mm
             thick). Drilling and tapping should be done prior to welding, to
             prevent oil and metal chips from falling into the tank. Welding
             should be done by an expert with several passes for each end plate
@@ -1529,8 +1529,8 @@
 
             <Figure name="Figure 11" src="img/fig-11.svg" caption="Fuel tank end detail. Several weld passes should be used to attach the end plates to the seamless tubing." />
 
-            <p>Tanks made from seamless tubing should not be greater than six
-            inches in diameter; wall stress is a function of diameter, and at high
+            <p>Tanks made from seamless tubing should not be greater than 150
+            mm in diameter; wall stress is a function of diameter, and at high
             stress, specialized design information, not usually available to the
             amateur builder, is required. Also, the force on the tank end plates
             increases rapidly with tank diameter.</p>
@@ -1583,8 +1583,8 @@
             with Teflon packing or seals. Many manufacturers make this kind of
             valve (see <a href="#list-of-suppliers">List of Suppliers</a>). The valve for
             gaseous oxygen shoud be larger than the valve for the fuel line. Engines of the size
-            discussed in Example Design Calculation should use a 1/4-inch ftel
-            valve (that is, 1/4 National Pipe Thread line size) and a 1/2-inch
+            discussed in Example Design Calculation should use a 1/4-inch (6.3 mm) fuel
+            valve (that is, 1/4 National Pipe Thread line size) and a 1/2-inch (12.7 mm)
             oxygen valve. The tubing actnally entering, and leaving, the valves
             need not be this large, but the valves themselves should be as
             indicated to afford a range of flow control with minimum pressure drop
@@ -1609,10 +1609,10 @@
 
             <p>Check valves permit fluid flow in one direction only. They are
             widely used in the aircraft and hydraulic industry and are
-            manufactured by many companies. l/4-inch line size is recommended for
+            manufactured by many companies. 1/4-inch (6.3 mm) line size is recommended for
             all functions shown in <a class="figure-link" href="#figure-10">Figure 10</a> with
             the exception of the gaseous oxygen line check valve which should feature
-            metal-to-metal seats and be at least 3/8 inch line size. Check valves should be
+            metal-to-metal seats and be at least 3/8 inch (9.5 mm) line size. Check valves should be
             thoroughly cleaned prior to use and tested to insure that tlle check is working
             properly.</p>
 
@@ -1651,14 +1651,14 @@
             with gaseous oxygen or hydrocarbon fuel and are so widely used that
             significant cost savings are possible.</p>
 
-            <p>Small (2 1/2 or 3-inch diameter) high pressure gauges similar to
+            <p>Small (63 or 76 mm diameter) high pressure gauges similar to
             those used on oxygen welding regulators should be used by the amateur
             builder for measuring pressure in the high pressure gas cylinders or
             manifolds. These gauges can be obtained from a welding supply shop.</p>
 
             <p>Gauges for fuel, oxygen, water, and combustion chamber pressure
-            should be at least 3 1/2 inch diameter for easv reading, from a
-            distance. These 3 1/2 Acaloy gauges of Helicoid (see
+            should be at least 89 mm diameter for easv reading, from a
+            distance. These 89 mm Acaloy gauges of Helicoid (see
             <a href="#list-of-suppliers">List of Suppliers</a>) are recommended because of their
             reliability and low cost. These gauges are easily panel mounted and make a neat test
             stand installation.</p>
@@ -1666,11 +1666,11 @@
             <h3 id="plumbing">Plumbing</h3>
 
             <p>Plumbing refers to tbe flow tubes and fittings used to collnect
-            the components discussed previously. 1/4-inch diameter stainless steel
-            tubing for the fuel and nitrogen systems and 3/8 inch diameter
+            the components discussed previously. 1/4-inch (6.3 mm) diameter stainless steel
+            tubing for the fuel and nitrogen systems and 3/8 inch (9.5 mm) diameter
             stainless tubing for the oxygen line are recommended. Flare fittings
             with metal to metal seats are also recommended for joining the tubing
-            to other components. 1/4 and 3/8 inch diameter copper tubing can also
+            to other components. 1/4 and 3/8 inch (6.3 and 9.5 mm) diameter copper tubing can also
             be used for the fuel, oxygen, and nitrogen supply system but is not as
             desirable as stainless steel and is more easily flared. The amateur
             builder should use only good flaring tools and should form or bend
@@ -1689,7 +1689,7 @@
             fuel tank and associated plumbing, and the oxygen and nitrogen cylinders 
             with regulators and associated plumbing. The operator's station, which
             is really a part of the test stand, should be physically separated from 
-            the test stand proper by at least 20 feet, witll a shrapnel barricade 
+            the test stand proper by at least 6.1 m, witll a shrapnel barricade 
             between. The operator's station should contain the control valve extensions,
             the ignition system battery and associated switches, and a mirror system 
             so that the operator does not directly view the operating rocket engine.</p>
@@ -1703,7 +1703,7 @@
 
             <p><a class="figure-link" href="#figure-12">Figure 12</a> shows schematically the
             proper arrangement of components for a safe rocket engine test stand. The rocket
-            engine is separated from the propellant flow control valves by a 1/8-inch thick
+            engine is separated from the propellant flow control valves by a 3.2 mm thick
             steel barricade. The engine is firmly attached to a section of steel
             channel in the nozzle down position. This is the safest orientation
             for a liquid-fuel rocket engine since excess fuel, in the event of an
@@ -1712,7 +1712,7 @@
             complicated exhaust deflector or fixture is required. The compressed
             gas cylinders (one nitrogen and two oxygen) are mounted at the rear of
             the test stand and are separated from the control valves compartment
-            by another barricade made from one-inch thick plywood. The nitrogen
+            by another barricade made from 25 mm thick plywood. The nitrogen
             and oxygen regulators are mounted on this plywood barricade above the
             cylinders. In this manner, expended cylinders may he replaced with
             charged cylinders without disturbing the regulators or plumbing. A
@@ -1732,9 +1732,9 @@
             Panel mounted needle valves are recommended since they facilitate
             mounting in the manner described, and do not place mounting or
             operating stresses on the propellant flow tubing. Valve stem
-            extensions, made from 1/4-inch pipe permit operation of the control
+            extensions, made from 1/4-inch (6.3 mm) pipe permit operation of the control
             valves from the operator's remote control station, which is located at
-            least twenty feet from the test stand proper. Pressure gauges for fuel
+            least 6.1 m from the test stand proper. Pressure gauges for fuel
             tank pressure, oxygen line pressure, cooling water exit pressure and
             combustion chamber pressure are mounted in a panel which is attached
             to the forward and rear barricades and which faces the operator's
@@ -1744,7 +1744,7 @@
             coupling attached to the stand, with semi-permanent plumbing between
             the coupling and the rocket engine. Water flowing from the cooling
             jacket should be directed away from the engine or can be directed
-            downward onto a 3-inch deep layer of coarse stones laid beneath the
+            downward onto a 76 mm deep layer of coarse stones laid beneath the
             roeket engine exhaust. These stones will prevent the engine exhaust
             from picking up dirt and dust; the water will cool the stones and
             extend their useful life. The jet of cooling water can be observed by
