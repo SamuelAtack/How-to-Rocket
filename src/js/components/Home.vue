@@ -1770,7 +1770,7 @@
 
             <ol>
                 <li>The operator should be protected by a suitable barricade located
-                some distance (at least 20 feet) from the test unit.</li>
+                some distance (at least 6.1 m) from the test unit.</li>
 
                 <li>Control of valves during engine ignition and steady-state
                 operation should be by remote means, which for amateur units is best
@@ -1836,7 +1836,7 @@
 
             <p>Connect the engine cooling jacket to a readily available
             source of pressurized water (such as lawn or house supply; pressure
-            should be 50-100 psi with no flow). Attach a pressure gauge to the
+            should be 345-690 kPa with no flow). Attach a pressure gauge to the
             outlet port of the jacket and open the water valve, allowing water to
             fill the jacket. Observe the jacket and engine for leaks. There should
             be no leaks.</p>
@@ -1865,7 +1865,7 @@
             and be accurate! Obtain the net weight of collected water by
             subtracting from the weight of the filled container its empty weight.
             Divide the net weight by the time during which water was collected and
-            the result will be water flow rate in lb/sec. This operation should be
+            the result will be water flow rate in kg/sec. This operation should be
             repeated several times at different pressures to obtain the flow
             characteristics of the coolant jacket. If insufficient water pressure
             is available to achieve the design water flow rate, check the size of
@@ -1888,7 +1888,7 @@
             some indication of how closely design objectives were achieved. This
             test should be conducted in the same manner as the cooling water
             calibration test except that the flow time should he long enough to
-            accumulate at least ten pounds of water.</p>
+            accumulate at least 4.5 kg of water.</p>
 
             <!-- CH 9.3 -->
             <h2 id="leak-testing">Test Stand Checkout</h2>
@@ -1897,10 +1897,10 @@
             components installed, tests should the conducted to determine that no
             gas or liquid leaks will occur when actual propellants are used. Fill
             the tank with clean water. Cap off the fuel and oxygen lines where
-            they would normally attach to the engine. Pressurize the system to 100
-            psi and check for leaks. A soap solution can be used to check around
+            they would normally attach to the engine. Pressurize the system to 690
+            kPa and check for leaks. A soap solution can be used to check around
             all fittings and seals. Soap bubbles indicate the presence of a gas
-            leak. If no leaks are present, increase the pressure to 200 psi and
+            leak. If no leaks are present, increase the pressure to 1380 kPa and
             repeat the detection procedure. Continue this procedure until the test
             stand operating pressure is reached and no leaks are present.
             Depressurize the system and refill the fuel tank with clean water.
@@ -1935,7 +1935,7 @@
             provides excellent propellant ignition characteristics, and
             drastically reduces hard starts. Hot-source ignition works as follows:
             two lengths of insulated #16 or #18 solid wire are taped together and
-            their exposed ends are bent to form a spark gap of about 3/32-inch. A
+            their exposed ends are bent to form a spark gap of about 2.4 mm. A
             small amount of cotton is wrapped around, or attached to, thc wires
             very near the spark gap but not obstructing it. This ignition assembly
             is pushed through the nozzle into the combustion chamber of the rocket
@@ -2446,6 +2446,12 @@
             <!-- CH 14.0 -->
             <h1 id="conversion-factors">Conversion Factors</h1>
 
+            <p>This book is written in metric units throughout. A handful of items are
+            still given by their standard imperial designation, since that is how the
+            actual hardware is sold and there is no exact metric substitute for the same
+            part: pipe thread and tubing sizes, bolt threads, numbered twist drills, and
+            AWG wire gauge. Their approximate metric sizes are given below for reference.</p>
+
             <h4>TABLE V</h4>
 
             <!-- TABLE 5 -->
@@ -2453,96 +2459,81 @@
                 <table class="table full-width">
                     <thead>
                         <tr>
-                            <th>Multiply</th>
-                            <th>by</th>
-                            <th>To Obtain</th>
+                            <th>Designation</th>
+                            <th>Type</th>
+                            <th>Approx. metric size</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Btu/minute</td>
-                            <td>0.02356</td>
-                            <td>Horsepower</td>
+                            <td>1/8-inch</td>
+                            <td>Pipe/tube nominal size</td>
+                            <td>3.2 mm</td>
                         </tr>
                         <tr>
-                            <td>Btu/minute</td>
-                            <td>17.57</td>
-                            <td>Watts</td>
+                            <td>1/4-inch</td>
+                            <td>Pipe/tube nominal size</td>
+                            <td>6.3 mm</td>
                         </tr>
                         <tr>
-                            <td>Cubic feet</td>
-                            <td>1728</td>
-                            <td>Cubic inches</td>
+                            <td>3/8-inch</td>
+                            <td>Pipe/tube nominal size</td>
+                            <td>9.5 mm</td>
                         </tr>
                         <tr>
-                            <td>Cubic feet</td>
-                            <td>7.48052</td>
-                            <td>Gallons</td>
+                            <td>1/2-inch</td>
+                            <td>Pipe/tube nominal size</td>
+                            <td>12.7 mm</td>
                         </tr>
                         <tr>
-                            <td>Feet</td>
-                            <td>12</td>
-                            <td>Inches</td>
+                            <td>10-32</td>
+                            <td>UNF bolt thread</td>
+                            <td>~4.8 mm nominal diameter</td>
                         </tr>
                         <tr>
-                            <td>Gallons</td>
-                            <td>0.1337</td>
-                            <td>Cubic feet</td>
+                            <td>1/4-20</td>
+                            <td>UNC bolt thread</td>
+                            <td>~6.3 mm nominal diameter</td>
                         </tr>
                         <tr>
-                            <td>Gallons</td>
-                            <td>231</td>
-                            <td>Cubic inches</td>
+                            <td>1/4-28</td>
+                            <td>UNF bolt thread</td>
+                            <td>~6.3 mm nominal diameter</td>
                         </tr>
                         <tr>
-                            <td>Gallons water</td>
-                            <td>8.3453</td>
-                            <td>Pounds water</td>
+                            <td>3/8-16</td>
+                            <td>UNC bolt thread</td>
+                            <td>~9.5 mm nominal diameter</td>
                         </tr>
                         <tr>
-                            <td>Miles</td>
-                            <td>5280</td>
-                            <td>Feet</td>
+                            <td>#48 drill</td>
+                            <td>Numbered twist drill</td>
+                            <td>1.93 mm</td>
                         </tr>
                         <tr>
-                            <td>Miles/hour</td>
-                            <td>1.467</td>
-                            <td>Feet/sec</td>
+                            <td>#69 drill</td>
+                            <td>Numbered twist drill</td>
+                            <td>0.74 mm</td>
                         </tr>
                         <tr>
-                            <td>Minute</td>
-                            <td>60</td>
-                            <td>Seconds</td>
+                            <td>#75 drill</td>
+                            <td>Numbered twist drill</td>
+                            <td>0.53 mm</td>
                         </tr>
                         <tr>
-                            <td>Pounds</td>
-                            <td>16</td>
-                            <td>Ounces</td>
+                            <td>#16 AWG</td>
+                            <td>Solid wire gauge</td>
+                            <td>1.29 mm diameter</td>
                         </tr>
                         <tr>
-                            <td>Pounds water</td>
-                            <td>0.1198</td>
-                            <td>Gallons</td>
+                            <td>#18 AWG</td>
+                            <td>Solid wire gauge</td>
+                            <td>1.02 mm diameter</td>
                         </tr>
                         <tr>
-                            <td>Square feet</td>
-                            <td>144</td>
-                            <td>Square inches</td>
-                        </tr>
-                        <tr>
-                            <td>Temp (degC + 17.78)</td>
-                            <td>1.8</td>
-                            <td>Temp (degF)</td>
-                        </tr>
-                        <tr>
-                            <td>Temp (degF + 460)</td>
-                            <td>1</td>
-                            <td>Abs. Temp (degR)</td>
-                        </tr>
-                        <tr>
-                            <td>Temp (degF - 32)</td>
-                            <td>5/9</td>
-                            <td>Temp (degC)</td>
+                            <td>Temp (°C)</td>
+                            <td>Conversion formula</td>
+                            <td>(°F − 32) × 5/9</td>
                         </tr>
                     </tbody>
                 </table>
