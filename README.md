@@ -6,9 +6,7 @@ This is a fork of [Spacha's How-to-Rocket](https://github.com/Spacha/How-to-Rock
 
 ## About this fork
 
-The original book, like most rocketry literature from its era, is written entirely in imperial units (psi, °F, lb, ft/sec). This fork rewrites every calculation, formula, and worked example in the book to use SI units throughout, rather than offering a toggle between the two. A handful of things are deliberately left as their standard imperial designation, since that's how the real hardware is sold and there's no exact metric substitute for the same part: pipe thread sizes, bolt threads, numbered drills, and AWG wire gauge. Where these appear, an approximate metric size is given alongside them, and a full reference table is included near the end of the book.
-
-None of the content itself has been rewritten, only the units. Where the original book's own numbers didn't quite add up, that's flagged rather than silently corrected, in keeping with the spirit of a straight unit conversion.
+The original book is written entirely in imperial units (psi, °F, lb, ft/sec). This fork rewrites every calculation, formula, and worked example in the book to use SI units throughout, rather than offering a toggle between the two. A handful of things are deliberately left as their standard imperial designation, since that's how the real hardware is sold and there's no exact metric substitute for the same part: pipe thread sizes, bolt threads, numbered drills, and AWG wire gauge. Where these appear, an approximate metric size is given alongside them, and a full reference table is included near the end of the book. None of the content itself has been rewritten, only the units. 
 
 ## Credit
 
